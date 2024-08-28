@@ -1,0 +1,115 @@
+body{
+    background-color: pink;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: rgb(252, 80, 109);
+    border-radius: 50px;
+}
+.yesno{
+    display: flex;
+    justify-content: center;
+}
+.yesno input{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+#q1{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+}
+#q1 input{
+    width: 100px;
+    position: relative;
+    left: 180px;
+}
+#q4{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+    display: none;
+}
+#q3{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+    display: none;
+}
+#q2{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+    display: none;
+}
+#b1{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+    display: none;
+}
+#subno{
+    position: relative;
+    left: 50px;
+    display: none;
+}
+input{
+    border-radius: 5px;
+}
+input:hover{
+    background-color: red;
+}
+#ddtc{
+    position: fixed;
+    left: 35vw;
+    top: 40vh;
+    display: none;
+}
+#b2{
+    position: fixed;
+    left: 10vw;
+    top: 25vh;
+    display: none;
+}
+#b3{
+    position: fixed;
+    left: 20vw;
+    top: 70vh;
+    display: none;
+}
+#b4{
+    position: fixed;
+    left: 60vw;
+    top: 30vh;
+    display: none;
+}
+#b5{
+    position: fixed;
+    left: 50vw;
+    top: 60vh;
+    display: none;
+}
+#b6{
+    position: fixed;
+    left: 50vw;
+    top: 5vh;
+    display: none;
+}
+#b7{
+    position: fixed;
+    left: 10vw;
+    top: 5vh;
+    display: none;
+}
+#b8{
+    position: fixed;
+    left: 65vw;
+    top: 70vh;
+    display: none;
+}
